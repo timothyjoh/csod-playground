@@ -1,0 +1,26 @@
+{
+  "name": "csod-integration",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "repository": "git@github.com:richardson-sales-performance/csod-integration.git",
+  "author": "Tim Johnson <jhnsntmthy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "rss": "ts-node rss.ts"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "aws-sdk": "^2.1231.0",
+    "console-log-colors": "^0.3.3",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.1",
+    "feed": "^4.2.2",
+    "node-fetch": "^3.2.8",
+    "remeda": "^1.3.0",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.4"
+  }
+}
